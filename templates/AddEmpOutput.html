@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Emp Output</title>
+    <style>
+        body {
+            background-color: lightgrey;
+            font-family: 'Avenir', sans-serif;
+            color: DodgerBlue;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+
+        h1 {
+            color: DodgerBlue;
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+
+        h2 {
+            font-size: 1.5em;
+            margin: 5px 0;
+        }
+
+        form {
+            margin-top: 20px;
+        }
+
+        button {
+            background: grey;
+            color: white;
+            height: 45px;
+            width: 200px;
+            font: oblique;
+            font-size: 1em;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+
+        button:hover {
+            background: darkgrey;
+        }
+    </style>
+</head>
+
+<body>
+    <center>
+        <h1>SAVE SUCCESSFUL</h1>
+        <h2>Following Employee has been added to the database</h2>
+        <h2>{{ name }}</h2>
+        <form action="http://3.134.115.108:80/" autocomplete="on" method="GET">
+            <button type="submit">GO BACK</button>
+        </form>
+    </center>
+</body>
+
+</html>
